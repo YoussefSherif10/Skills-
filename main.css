@@ -1,0 +1,145 @@
+.body {
+    font-family: 'Amiri', serif;
+    font: large;
+    color: white;
+    background-image: linear-gradient(to right bottom, #1a1a1a, #2e2e2e, #444444, #5b5b5b, #737373);
+}
+
+
+/*************************************** GENERAL BUTTON **********************************************************/
+
+.mybtn {
+    margin: 10px;
+}
+
+.mybtn:hover {
+    padding: 10px;
+    box-shadow: 2px 2px rgba(255, 217, 0, 0.719);
+}
+
+
+/************************************************ NAVIGATION BAR ***************************************************/
+
+#header {
+    width: 100%;
+    position: relative;
+    top: 0;
+    background-color: #4d4d4d;
+}
+
+#navbar {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-items: center;
+    transition: background-color 1s ease-out;
+}
+
+#navbar:hover {
+    background-color: #45567d;
+}
+
+
+/****************************************LOGO SECTION******************************************************/
+
+#logo {
+    margin-top: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+#logo_image {
+    max-width: 50%;
+    max-height: 50%;
+}
+
+
+/********************************************* GENERAL SECTION *************************************************/
+
+.sec {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px;
+    margin-top: 20px;
+}
+
+.sec:hover {
+    border: 2px solid rgba(255, 217, 0, 0.719);
+}
+
+.myimg {
+    border-radius: 20px;
+    max-width: 40%;
+    max-height: 40%;
+}
+
+.content {
+    max-width: 25%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: space-around;
+    justify-content: center;
+}
+
+
+/******************************************* FOOTER ***************************************/
+
+#contact-section {
+    border-top: 4px solid #4d68a7;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 30px;
+    margin-top: 20px;
+}
+
+#contact-section-title {
+    font-weight: 700;
+    text-align: center;
+    color: white;
+    font-size: 4rem;
+    margin-bottom: 0px;
+}
+
+#contact-statment {
+    font-size: 1.8rem;
+    font-weight: 400;
+    line-height: 1.4;
+    color: white;
+    margin-top: 5px;
+}
+
+#contact-links {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.conlink {
+    display: inline-block;
+    padding: 1rem 2rem;
+    border-radius: 2px;
+}
+
+.contact-details {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 2rem;
+    text-shadow: 2px 2px 1px #1f1f1f;
+    transition: transform 0.3s ease-out;
+    text-decoration: none;
+    color: gold;
+}
+
+.contact-details:hover {
+    transform: translateY(8px);
+    text-decoration: none;
+    color: gold;
+}

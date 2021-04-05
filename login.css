@@ -1,0 +1,64 @@
+html {
+    height: 100%;
+}
+
+.body {
+    width: 100%;
+    height: 100%;
+    font-family: 'Amiri', serif;
+    font: large;
+    color: white;
+    background-image: linear-gradient(to right bottom, #1a1a1a, #2e2e2e, #444444, #5b5b5b, #737373);
+    /*for this page only*/
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.header {
+    text-align: center;
+    margin-top: 20px;
+}
+
+#logo_image {
+    max-width: 40%;
+    max-height: 40%;
+}
+
+#survey-form {
+    width: 50%;
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    border: 1px solid rgba(255, 217, 0, 0.719);
+    border-radius: 10px;
+    padding: 20px;
+    background-color: #4d4d4d;
+}
+
+.form-group {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: flex-end;
+}
+
+.mybtn {
+    margin: 10px;
+}
+
+.mybtn:hover {
+    padding: 10px;
+    box-shadow: 2px 2px rgba(255, 217, 0, 0.719);
+}
+
+input::placeholder {
+    text-align: right;
+}
+
+input {
+    text-align: right;
+}
